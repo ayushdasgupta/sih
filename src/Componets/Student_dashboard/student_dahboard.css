@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+
+#Upload{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5vh;
+    padding-right: 10vw;
+}
+
+input#input-file{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+input#submit{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    margin-left: 5px;
+}
+
+#innerbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 10vh;
+}
+
+.box{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 6vw;
+}
+
+iframe{
+    height: 150px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+iframe:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    .box{
+        flex-direction: column;
+        align-items: center;
+    }
+}

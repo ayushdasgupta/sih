@@ -1,0 +1,15 @@
+.container_home{
+    /* background-color: crimson; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:85vh;
+    /* background-color: #F5E48C; */
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL22BrbY0oCynDEQL_n-RdNbS2LveOmTZb0w&usqp=CAU');
+    background-size: cover;
+}
+.h1{
+    text-align: center;
+    padding: 0vw 20vw;    
+    font-weight: 600;
+}
